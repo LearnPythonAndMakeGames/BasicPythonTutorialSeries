@@ -15,3 +15,5 @@ These tutorials start from scratch and are intended for the absolute novice to p
 * 05 - [Array (Data Structure)](https://youtu.be/VGHRYoShtYM?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3):  **7 min**
 * 06 - [Loop (Flow Control)](https://youtu.be/lP3m1j6XOrQ?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3):  **14 min**
 * 07 - [Functions (subroutine)](https://youtu.be/Wz5EBRZpBz8?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3): **12 min**
+* 08 - [Imports and Standard Library](https://youtu.be/-JHRF_bJ7v0?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3): **19 min**
+* 09 - [Random Numbers](https://youtu.be/47Qn-steMfk?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3): **10 min**
