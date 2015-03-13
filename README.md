@@ -1,6 +1,8 @@
 # Python Tutorials Series
 Set of tutorials for Python
 
+**License:  [Apache 2](https://github.com/brianbruggeman/python_tutorials/blob/master/LICENSE)**
+
 ## Basic Tutorial Videos:  [YouTube](https://www.youtube.com/playlist?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3)
 These tutorials start from scratch and are intended for the absolute novice to python and programming.
 
