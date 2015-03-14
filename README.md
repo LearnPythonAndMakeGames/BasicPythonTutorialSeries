@@ -19,3 +19,5 @@ These tutorials start from scratch and are intended for the absolute novice to p
 * 09 - [Random Numbers](https://youtu.be/47Qn-steMfk?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3): **10 min**
 * 10 - [Capturing Input](https://youtu.be/XmEdrI7-LLQ?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3): **12 min**
 * 11 - [Challenge: Combat Sim](https://youtu.be/n0IanZWN3FQ?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3): **1 hr 6 min**
+* 12 - [Objects Intro](https://youtu.be/xPowUlPYMt8?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3): **13 min**
+* 13 - [Sequence Types](https://youtu.be/6WMpnCprQJA?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3): **29 min**
