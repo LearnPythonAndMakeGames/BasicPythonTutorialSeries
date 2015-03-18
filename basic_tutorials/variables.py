@@ -1,22 +1,13 @@
+title = "Combat information"
+print title
+print "-"*40
 
-first_variable = 100
-second_variable = "Hello, World!"
-pi = 3.14
-character = 'c'  # here character is 'c'
-character = "d"  # but here character is 'd'
-character = "'"  # here character is '
-character = '"'  # here character is "
+attack_power = raw_input("What is the attack power? ")
+percent_to_hit = raw_input("What is the percent to hit in decimal? ")  # this is a string of 0.2
+percent_to_hit = float(percent_to_hit)
 
-error_message = "The letter 'd' is not found."
+print "-"*40
+print "Attack Power:", attack_power, "points"
+print "Percent to Hit:", percent_to_hit * 100, "%"
+print "-"*40
 
-character = error_message
-
-first_variable = "hi"
-
-firstVariable = first_variable  # camelCase vs under_score
-
-print first_variable
-print second_variable
-print pi
-
-print character
