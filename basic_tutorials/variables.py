@@ -3,7 +3,7 @@ print title
 print "-"*40
 
 attack_power = raw_input("What is the attack power? ")
-percent_to_hit = raw_input("What is the percent to hit in decimal? ")  # this is a string of 0.2
+percent_to_hit = raw_input("What is the percent to hit? ")  # this is a string
 percent_to_hit = float(percent_to_hit)
 
 print "-"*40
