@@ -10,4 +10,3 @@ print "-"*40
 print "Attack Power:", attack_power, "points"
 print "Percent to Hit:", percent_to_hit * 100, "%"
 print "-"*40
-
