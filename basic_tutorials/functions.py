@@ -1,24 +1,46 @@
-def display(arg1=None, arg2=None, message="Hello World!"):
-    """Displays message on the command-line"""
-    print message
+import random
 
-display(1, 2, "Hello, World!")
-display(1, 2, 100)
-display(1, 2, True)
+def attack(attack_power, percent_to_hit, percent_to_critical=0.01):
+    """Calculates the damage done based on attack power and percent to
+    hit.  Also calculates critical strike.
 
-variable = 3.14
-display(1, 2, variable)
+    Parameters:
+        attack_power - attack power
+        percent_to_hit - percent to hit
 
-display(1, 2)
+    Optional:
+        percent_to_critical - percent to critical strike [default: 0.01]
 
-display(message="Yup")
+    Returns:
+       Returns damage
+    """
+    damage_value = 0
 
+    # Calculate if creature was hit
+    chance_to_hit = random.random()
+    if chance_to_hit <= percent_to_hit:
+        creature_was_hit = True
+    else:
+        creature_was_hit = False
 
-def display2(*messages):
-    """Displays message on the command-line"""
-    for message in messages:
-        print message,
-    print
+    # Calculate final damage value
+    if creature_was_hit:
+        damage_value = random.randint(1, attack_power)
+        if chance_to_hit <= percent_to_critical:
+            damage_value = attack_power + damage_value
 
-display2('a', 'b', 'c', 'd', 'e', 'f')
-display2("Hi", 2, "The World!")
+    return damage_value
+
+attack_power = raw_input("What is the attack power? ")
+percent_to_hit = raw_input("What is the percent to hit? ")
+percent_to_critical = raw_input("What is the percent to critical? ")
+
+attack_power = int(attack_power)
+percent_to_hit = float(percent_to_hit)
+percent_to_critical = float(percent_to_critical)
+
+print attack(attack_power, percent_to_hit, percent_to_critical)
+print attack(attack_power, percent_to_hit, percent_to_critical)
+print attack(attack_power, percent_to_hit, percent_to_critical)
+print attack(attack_power, percent_to_hit, percent_to_critical)
+print attack(attack_power, percent_to_hit, percent_to_critical)

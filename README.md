@@ -5,19 +5,20 @@ Set of tutorials for Python
 * **Author:** Brian Bruggeman
 * **License:**  [Apache 2](https://github.com/brianbruggeman/python_tutorials/blob/master/LICENSE)
 
-## Basic Tutorial Videos:  [YouTube Playlist](https://www.youtube.com/playlist?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3)
+## Basic Tutorial Videos:  [YouTube Playlist](https://www.youtube.com/playlist?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb)
 These tutorials start from scratch and are intended for the absolute novice to python and programming.
 
-* 01 - [Hello World](https://youtu.be/bWyF7FsEvis?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3):  **3 min**
-* 02 - [Variables](https://youtu.be/uDJDs-ZQ6jo?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3):  **10 min**
-* 03 - [Strings and Characters](https://youtu.be/V__VJZjJ_ZM?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3): **9 min**
-* 04 - [If Else (Conditional)](https://youtu.be/yWWr04acMQ4?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3): **10 min**
-* 05 - [Array (Data Structure)](https://youtu.be/VGHRYoShtYM?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3):  **7 min**
-* 06 - [Loop (Flow Control)](https://youtu.be/lP3m1j6XOrQ?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3):  **14 min**
-* 07 - [Functions (subroutine)](https://youtu.be/Wz5EBRZpBz8?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3): **12 min**
-* 08 - [Imports and Standard Library](https://youtu.be/-JHRF_bJ7v0?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3): **19 min**
-* 09 - [Random Numbers](https://youtu.be/47Qn-steMfk?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3): **10 min**
-* 10 - [Capturing Input](https://youtu.be/XmEdrI7-LLQ?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3): **12 min**
-* 11 - [Challenge: Combat Sim](https://youtu.be/n0IanZWN3FQ?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3): **1 hr 6 min**
-* 12 - [Objects Intro](https://youtu.be/xPowUlPYMt8?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3): **13 min**
-* 13 - [Sequence Types](https://youtu.be/6WMpnCprQJA?list=PLc1f0f6PqfREnbbL-UPvMuDvJozRc7lg3): **29 min**
+* 01 - [Hello World](https://youtu.be/Koc1Pmuk26E?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb):  **9 min**
+* 02 - [Variables](https://youtu.be/gmgfleI31XA?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb):  **8 min**
+* 03 - [Functions (subroutine)](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **12 min**
+* 04 - [If Else (Conditional)](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): ** min**
+* 05 - [Loop (Flow Control)](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb):  **14 min**
+* 06 - [Strings and Characters](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): ** min**
+* 07 - [Array (Data Structure)](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb):  ** min**
+* 08 - [Imports and Standard Library](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **19 min**
+* 09 - [Random Numbers](https://?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **10 min**
+* 10 - [Capturing Input](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **12 min**
+* 11 - [Challenge: Combat Sim](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **1 hr 6 min**
+* 12 - [Objects Intro](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **13 min**
+* 13 - [Sequence Types](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **29 min**
+* 14 - [Mapping Types](https://youtu.be/I?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **14 min**
