@@ -10,7 +10,7 @@ These tutorials start from scratch and are intended for the absolute novice to p
 * [Why Python?](https://youtu.be/b2abygA2p_U?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb) **8 min**
 * [Getting Started: Windows](https://youtu.be/-d6-Yzu1rR8?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb) **4 min**
 * [Getting Started: Mac](https://youtu.be/Hl2KEGU2Uuo?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb)  **4 min**
-* [Getting Started: Linux](?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb)  ** min**
+* [Getting Started: Linux](https://youtu.be/CCH0FWF2GJc?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb)  **2 min**
 * 01 - [Hello World](https://youtu.be/MBjB9NrhLS0?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb):  **9 min**
 * 02 - [Variables](https://youtu.be/PFy9q3euC1o?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb):  **8 min**
 * 03 - [Imports and Standard Library](https://youtu.be/oTXbuNE2KYQ?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **12 min**
