@@ -13,6 +13,10 @@ develop-eggs/
 dist/
 downloads/
 eggs/
+<<<<<<< HEAD
+=======
+.eggs/
+>>>>>>> fd2690d0d2cb98510b94cf8bc2ce2390507de5cd
 lib/
 lib64/
 parts/
@@ -36,9 +40,17 @@ pip-delete-this-directory.txt
 htmlcov/
 .tox/
 .coverage
+<<<<<<< HEAD
 .cache
 nosetests.xml
 coverage.xml
+=======
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+>>>>>>> fd2690d0d2cb98510b94cf8bc2ce2390507de5cd
 
 # Translations
 *.mo

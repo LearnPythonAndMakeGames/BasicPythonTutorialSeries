@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python Tutorials Series
 Set of tutorials for Python
 
@@ -22,3 +23,7 @@ These tutorials start from scratch and are intended for the absolute novice to p
 * 12 - [Objects Intro](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **13 min**
 * 13 - [Sequence Types](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **29 min**
 * 14 - [Mapping Types](https://youtu.be/I?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **14 min**
+=======
+# BasicPythonTutorialSeries
+Basic Python Tutorial Series
+>>>>>>> fd2690d0d2cb98510b94cf8bc2ce2390507de5cd

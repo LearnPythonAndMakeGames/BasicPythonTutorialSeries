@@ -1,20 +1,28 @@
-#!/usr/bin/env python
+
+def display(message):
+    """Standard way to print a message"""
+    print message
 
 
 class HelloWorld(object):
-    """Our first class"""
+    """Describes your function... display a message"""
 
     def __init__(self, message):
         self.message = message
 
     def display(self):
+        """Display a message"""
         print self.message
 
 
-our_first_object = HelloWorld('Hello, World!')
-our_second_object = HelloWorld('Hello, Brian!')
+hello_world_object_01 = HelloWorld("hi")
+hello_world_object_02 = HelloWorld("Hello, World!")
+hello_world_object_03 = HelloWorld("Yo, sup!")
 
-our_first_object.display()  # Hello, World!
-our_second_object.display()  # Hello, Brian!
+hello_world_object_01.display()
+hello_world_object_02.display()
+hello_world_object_03.display()
 
-
+display("hi")
+display("Hello, World!")
+display("Yo, sup!")
