@@ -17,9 +17,9 @@ These tutorials start from scratch and are intended for the absolute novice to p
 * 04 - [If Else (Control Flow)](https://youtu.be/kw8XrXF3-sQ?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **7 min**
 * 05 - [Functions (Procedural Programming)](https://youtu.be/MJDlDF7567U?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **21 min**
 * 06 - [Loops (Control Flow)](https://youtu.be/nM_8WTrvA9E?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **9 min**
-* [Challenge: 01 - Combat Sim](https://youtu.be/n2ybTZbOHP8?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **1 hr, 6 min**
+* Challenge: 01 - [Combat Sim](https://youtu.be/n2ybTZbOHP8?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **1 hr, 6 min**
 * 07 - [Strings (Data Structure: Sequence Type)](https://youtu.be/JFkt5O8ojc0?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **8 min**
 * 08 - [Lists and Tuples (Data Structure: Sequence Type)](https://youtu.be/MHJQpnDoIvA?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **27 min**
 * 09 - [Dictionaries (Data Structures: Mapping Type)](https://youtu.be/jENbuOp0Uh0?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **16 min**
-* [Challenge: 02 - Item Shop](https://youtu.be/2RnjuW-F_xo?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **49 min**
+* Challenge: 02 - [Item Shop](https://youtu.be/2RnjuW-F_xo?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **49 min**
 * 10 - [Objects Intro (Object Oriented Programming)](https://youtu.be/_VbXd1NZkB4?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **22 min**
