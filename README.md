@@ -22,4 +22,4 @@ These tutorials start from scratch and are intended for the absolute novice to p
 * 08 - [Lists and Tuples (Data Structure: Sequence Type)](https://youtu.be/MHJQpnDoIvA?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **27 min**
 * 09 - [Dictionaries (Data Structures: Mapping Type)](https://youtu.be/jENbuOp0Uh0?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **16 min**
 * [Challenge: 02 - Item Shop](https://youtu.be/2RnjuW-F_xo?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **49 min**
-* 10 - [Objects Intro (Object Oriented Programming)]((https://youtu.be/_VbXd1NZkB4?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **22 min**
+* 10 - [Objects Intro (Object Oriented Programming)](https://youtu.be/_VbXd1NZkB4?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **22 min**
