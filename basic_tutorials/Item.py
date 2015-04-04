@@ -1,5 +1,6 @@
 
 class Item(object):
+
     """Base Item object"""
 
     def __init__(self, name='', value=0, quantity=1):

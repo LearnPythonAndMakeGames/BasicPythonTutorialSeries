@@ -5,6 +5,7 @@ def display(message):
 
 
 class HelloWorld(object):
+
     """Describes your function... display a message"""
 
     def __init__(self, message):

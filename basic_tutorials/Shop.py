@@ -1,4 +1,5 @@
 class Shop(object):
+
     """Base Shop object"""
 
     def __init__(self, name='', inventory={}, currency=450):
@@ -17,4 +18,3 @@ class Shop(object):
 
     def buy(self, quantity=1):
         """Buys item"""
-

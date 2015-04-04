@@ -82,9 +82,11 @@ def display_inventory(message, inventory, values, count=0):
         item_name, item_quantity = item_data
         item_value = values.get(item_name, "SOLD OUT")
         if item_value == "SOLD OUT":
-            print("{}: {} is {} and unavailable.".format(item_index, item_name, item_value))
+            print("{}: {} is {} and unavailable.".format(
+                item_index, item_name, item_value))
         else:
-            print("{}: {} costs {} gold and there are {} left.".format(item_index, item_name, item_value, item_quantity))
+            print("{}: {} costs {} gold and there are {} left.".format(
+                item_index, item_name, item_value, item_quantity))
     print("-" * 40)
 
 
@@ -128,7 +130,7 @@ def run_shop():
                           count=item_count)
         print("The shop has {} gold left.".format(shop_currency))
         print("You have {} gold left.".format(player_currency))
-        print("-"*40)
+        print("-" * 40)
 
         item_value_keys = sorted(item_values.keys())
         answer = raw_input("What item would you like to sell/purchase? ")
@@ -141,7 +143,8 @@ def run_shop():
             if shop_inventory[item_name] <= 0:
                 print("{} is unavailable.".format(item_name))
             elif item_value > player_currency:
-                print("You do not have the funds to purchase {}.".format(item_name))
+                print(
+                    "You do not have the funds to purchase {}.".format(item_name))
             else:
                 # go ahead and purchase
                 shop_currency = shop_currency + item_value
@@ -159,7 +162,8 @@ def run_shop():
             if player_inventory[item_name] <= 0:
                 print("{} is unavailable.".format(item_name))
             elif item_value > shop_currency:
-                print("Shop does not have the funds to purchase {}.".format(item_name))
+                print(
+                    "Shop does not have the funds to purchase {}.".format(item_name))
             else:
                 # go ahead and purchase
                 player_currency = player_currency + item_value

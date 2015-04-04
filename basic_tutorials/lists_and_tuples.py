@@ -40,5 +40,3 @@ for each_item in items:
 for item_index, each_item in enumerate(reversed(sorted(sorted_by_value))):
     item_value, item_name = each_item
     print "{0}: {1} --> {2} gold".format(item_index, item_name, item_value)
-
-

@@ -27,13 +27,13 @@ else:
     damage_value = 0
 
 
-print '-'*40
+print '-' * 40
 print "Attack Power:", attack_power
 print "Percent to Hit:", percent_to_hit
-print '-'*40
+print '-' * 40
 print 'Calculated'
-print '-'*40
+print '-' * 40
 print 'Creature was hit:', creature_was_hit
 print "Damage Value:", damage_value
 print "Chance to hit:", chance_to_hit
-print '-'*40
+print '-' * 40

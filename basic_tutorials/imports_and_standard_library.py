@@ -12,12 +12,12 @@ damage_value = random.randint(1, attack_power)
 chance_to_hit = random.random()
 
 
-print '-'*40
+print '-' * 40
 print "Attack Power:", attack_power
 print "Percent to Hit:", percent_to_hit
-print '-'*40
+print '-' * 40
 print 'Calculated'
-print '-'*40
+print '-' * 40
 print "Damage Value:", damage_value
 print "Chance to hit:", chance_to_hit
-print '-'*40
+print '-' * 40

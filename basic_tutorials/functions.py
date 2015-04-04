@@ -1,5 +1,6 @@
 import random
 
+
 def attack(attack_power, percent_to_hit, percent_to_critical=0.01):
     """Calculates the damage done based on attack power and percent to
     hit.  Also calculates critical strike.

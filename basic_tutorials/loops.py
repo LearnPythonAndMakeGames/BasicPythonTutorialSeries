@@ -46,4 +46,3 @@ while(player_wants_to_continue):
     answer = raw_input("Continue ([Y]/n)? ")
     if answer == "n":
         player_wants_to_continue = False
-

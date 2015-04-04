@@ -23,7 +23,7 @@ print ":".join("Attack Power", "{}".format(attack_power))  # Attack Power : 100
 print "Attack " + "Power"  # Attack Power
 
 for character in "Attack Power":
-    print character  #  A t t a c k  P o w e r  <--- each on its own line
+    print character  # A t t a c k  P o w e r  <--- each on its own line
     # A
     # t
     # t
@@ -31,4 +31,3 @@ for character in "Attack Power":
 ap_string = "Attack Power"
 if "attack power" == ap_string.lower():
     pass
-

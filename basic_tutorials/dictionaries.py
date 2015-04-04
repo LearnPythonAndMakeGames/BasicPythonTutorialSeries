@@ -26,16 +26,14 @@ for item_name, item_value in items_list:
 for item_name, item_value in items.iteritems():
     print "{} --> {} gold".format(item_name, item_value)
 
-print '-'*50
+print '-' * 50
 items['axe'] = 60
 for item_name in sorted(items):
     item_value = items[item_name]
     print "{} --> {} gold".format(item_name, item_value)
 
-print '-'*50
+print '-' * 50
 keys = ['sword', 'axe']
 for each_item in keys:
     item_value = items.get(each_item, "SOLD OUT")
     print "{} --> {}".format(each_item, item_value)
-
-
