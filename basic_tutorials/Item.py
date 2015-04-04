@@ -27,13 +27,14 @@ class Item(object):
         self.quantity = self.quantity + quantity
 
 
-item = Item("sword", 100)
-print item
-item.sell(2)
-print item
-item.sell()
-print item
-item.buy()
-print item
-item.buy(4)
-print item
+if __name__ == "__main__":
+    item = Item("sword", 100)
+    print item
+    item.sell(2)
+    print item
+    item.sell()
+    print item
+    item.buy()
+    print item
+    item.buy(4)
+    print item
