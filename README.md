@@ -24,3 +24,4 @@ These tutorials start from scratch and are intended for the absolute novice to p
 * Challenge: 02 - [Item Shop](https://youtu.be/2RnjuW-F_xo?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **49 min**
 * 10 - [Objects Intro (Object Oriented Programming)](https://youtu.be/_VbXd1NZkB4?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **22 min**
 * 11 - [Modules](https://youtu.be/syN7FJ0F8yw?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **11 min**
+* 12 - [Packages](https://youtu.be/qh3mJ1elP8I?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **6 min**
