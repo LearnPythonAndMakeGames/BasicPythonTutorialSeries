@@ -24,4 +24,8 @@ These tutorials start from scratch and are intended for the absolute novice to p
 * Challenge: 02 - [Item Shop](https://youtu.be/2RnjuW-F_xo?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **49 min**
 * 10 - [Objects Intro (Object Oriented Programming)](https://youtu.be/_VbXd1NZkB4?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **22 min**
 * 11 - [Modules](https://youtu.be/syN7FJ0F8yw?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **11 min**
+* Tools: 01 - [Pip](https://youtu.be/0_9cHnA5F6I?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **3 min**
+* Tools: 02 - [Pep8](https://youtu.be/XGslI-CsWJk?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **6 min**
+* Tools: 03 - [Sublime Text Package Control](https://youtu.be/aTbBM09RSbQ?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **4 min**
 * 12 - [Packages](https://youtu.be/qh3mJ1elP8I?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **6 min**
+* 13 - [Inheritance](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **28 min**
