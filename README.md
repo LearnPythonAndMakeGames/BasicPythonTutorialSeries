@@ -28,4 +28,4 @@ These tutorials start from scratch and are intended for the absolute novice to p
 * Tools: 02 - [Pep8](https://youtu.be/XGslI-CsWJk?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **6 min**
 * Tools: 03 - [Sublime Text Package Control](https://youtu.be/aTbBM09RSbQ?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **4 min**
 * 12 - [Packages](https://youtu.be/qh3mJ1elP8I?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **6 min**
-* 13 - [Inheritance](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **28 min**
+* 13 - [Inheritance](https://youtu.be/rxvB7IbwLe0?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **28 min**
