@@ -29,3 +29,16 @@ These tutorials start from scratch and are intended for the absolute novice to p
 * Tools: 03 - [Sublime Text Package Control](https://youtu.be/aTbBM09RSbQ?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **4 min**
 * 12 - [Packages](https://youtu.be/qh3mJ1elP8I?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **6 min**
 * 13 - [Inheritance](https://youtu.be/rxvB7IbwLe0?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **28 min**
+* 14 - [Class Properties as Decorators](https://youtu.be/MyLYjxT_kyg?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **9 min**
+* 15 - [Dunder Dunder](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **37 min**
+* 16 - [Exceptions](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **13 min**
+* 17 - [Logging](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **13 min**
+* 18 - [Inline If-Else](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **6 min**
+* 19 - [List Comprehension](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **8 min**
+* 20 - [Doctests](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **7 min**
+* 21 - [PDB](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **8 min**
+* Gaming Concept: 01 - [ECS: Intro](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **12 min**
+* Gaming Concept: 01 - [ECS: Entity](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): ** min**
+* Gaming Concept: 01 - [ECS: Component](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): ** min**
+* Gaming Concept: 01 - [ECS: Relationship](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): ** min**
+* Gaming Concept: 01 - [ECS: System](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): ** min**
