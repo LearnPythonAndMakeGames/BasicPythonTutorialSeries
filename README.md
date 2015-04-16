@@ -43,7 +43,7 @@ These tutorials start from scratch and are intended for the absolute novice to p
 * Tools: 04 - [Git: Mac](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): ** min**
 * Tools: 04 - [Git: Linux](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): ** min**
 * Tools: 05 - [Github](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): ** min**
-* 22 - [Unique IDs](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): ** min**
+* 22 - [Unique IDs](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **7 min**
 * Gaming Concept: 01 - [ECS: Intro](https://youtu.be/bSARGX9rmUc?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): **12 min**
 * Gaming Concept: 01 - [ECS: Entity](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): ** min**
 * Gaming Concept: 01 - [ECS: Component](https://youtu.be/?list=PLeLU1pCom3Oo4w7XE3wlrdWv6v7lA0hwb): ** min**
