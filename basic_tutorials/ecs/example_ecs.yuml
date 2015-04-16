@@ -1,0 +1,39 @@
+// http://yuml.me/edit/53c07b8d
+
+// Systems
+[CombatSystem{bg:wheat}]health-systems[HealthComponents]
+[CombatSystem{bg:wheat}]mana-systems[ManaComponents]
+[CombatSystem{bg:wheat}]position-systems[PositionComponents]
+
+[PhysicsSystem{bg:wheat}]position-systems[PositionComponents]
+
+// Components
+[PositionComponents{bg:mediumseagreen}]components-manager[PositionInstance00{bg:mediumseagreen}]
+[PositionComponents{bg:mediumseagreen}]components-manager[PositionInstance01{bg:mediumseagreen}]
+[PositionComponents{bg:mediumseagreen}]components-manager[PositionInstance02{bg:mediumseagreen}]
+
+[HealthComponents{bg:hotpink}]components-manager[HealthInstance00{bg:hotpink}]
+[HealthComponents{bg:hotpink}]components-manager[HealthInstance01{bg:hotpink}]
+[HealthComponents{bg:hotpink}]components-manager[HealthInstance02{bg:hotpink}]
+
+[ManaComponents{bg:dodgerblue}]components-manager[ManaInstance00{bg:dodgerblue}]
+[ManaComponents{bg:dodgerblue}]components-manager[ManaInstance01{bg:dodgerblue}]
+
+// Entities
+[ManaInstance00{bg:dodgerblue}]entity-mana[Entity1{bg:orchid}]
+[ManaInstance01{bg:dodgerblue}]entity-mana[Entity2{bg:orchid}]
+
+[HealthInstance00{bg:hotpink}]entity-health[Entity1{bg:orchid}]
+[HealthInstance01{bg:hotpink}]entity-health[Entity2{bg:orchid}]
+[HealthInstance02{bg:hotpink}]entity-health[Entity3{bg:orchid}]
+
+[PositionInstance00{bg:dodgerblue}]entity-position[Entity1{bg:orchid}]
+[PositionInstance01{bg:dodgerblue}]entity-position[Entity2{bg:orchid}]
+[PositionInstance02{bg:dodgerblue}]entity-position[Entity3{bg:orchid}]
+
+[Entity1{bg:orchid}]manager-entities[Entities{bg:brown}]
+[Entity2{bg:orchid}]manager-entities[Entities{bg:brown}]
+[Entity3{bg:orchid}]manager-entities[Entities{bg:brown}]
+
+[PhysicsSystem]entities-systems[Entities]
+[CombatSystem]entities-systems[Entities]
