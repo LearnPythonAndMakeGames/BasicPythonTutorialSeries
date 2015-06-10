@@ -1,0 +1,24 @@
+# heating duration (sec) per 100g of food
+fry: 300 # 5 min
+bake: 1200 # 20 min
+sautee: 180 # 3 min
+cook: 600 # 10 min
+
+# cutting rate (sec) per 100g of food
+chop: 20 # 20 sec
+mince: 120 # 2 min
+dice: 40 # 40 sec
+slice: 10 # 10 sec
+grate: 90 # 1.5 min
+crush: 180 # 3 min
+squeeze: 45 # 45 sec
+
+# combination duration (sec) per 100g of food
+mix: 120 # 2 mins
+combine: 60 # 1 min
+beat: 120 # 2 mins
+refrigerate: 14400 # 4 hours
+cool: 7200 # 2 hours
+knead: 300 # 5 min
+stir: 1200 # 20 min
+whip: 600 # 10 min

@@ -1,0 +1,16 @@
+cookie:
+    ingredients:
+        flour: 280
+        baking soda: 4
+        salt: 4
+        butter: 50
+        sugar: 300
+        vanilla extract: 4
+        eggs: 100
+        chocolate: 175
+    steps:
+        - combine: [flour, baking soda, salt]
+        - beat: [butter, sugar, vanilla extract]
+        - add: [eggs]
+        - beat: [flour]
+        - bake: 540  # 9 minutes

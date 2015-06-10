@@ -1,0 +1,86 @@
+baking soda:
+    dryness: 100
+    hardness: 25
+
+butter:
+    dryness: -10
+    hardness: -10
+    saltiness: 10
+
+cayanne:
+    pungency: 80
+    dryness: 5
+    hardness: -5
+    sweetness: 5
+
+cheese:
+    hardness: 10
+    saltiness: 25
+    sourness: 10
+
+chicken:
+    dryness: -5
+    hardness: -10
+    saltiness: 10
+    temperature: 35
+
+chocolate:
+    bitterness: 40
+    dryness: 20
+    hardness: 90
+    sweetness: 40
+
+coffee:
+    bitterness: 100
+    dryness: -100
+    hardness: -80
+    temperature: 55
+
+eggs:
+    dryness: -10
+    hardness: -10
+    saltiness: 10
+
+flour:
+    dryness: 100
+    hardness: 25
+
+garlic:
+    pungency: 30
+    dryness: 15
+    hardness: 20
+
+jalepeno:
+    pungency: 30
+    dryness: 5
+    hardness: -5
+    sweetness: 15
+
+salt:
+    dryness: 100
+    hardness: 90
+    saltiness: 100
+
+sugar:
+    dryness: 100
+    hardness: 90
+    sweetness: 100
+
+tea:
+    dryness: -100
+    bitterness: 80
+    pungency: 15
+    sourness: 20
+
+vanilla extract:
+    bitterness: 80
+    dryness: -100
+
+vinegar:
+    dryness: -80
+    sourness: 100
+
+water:
+    dryness: -100
+    hardness: -100
+    smoothness: -100
