@@ -59,38 +59,38 @@ class Item(object):
         return value
 
     def __repr__(self):
-      """Representation of item"""
-      string = "<{} {}:{} [{} {}]>"
-      cname = self.__class__.__name__
-      qty = self.quantity
-      if abs(qty) > 1:
-          qty = int(qty)
-      grams = "grams" if self.quantity > 1 else "gram"
-      health = self.health
-      if abs(health) > 1:
-          health = int(health)
-      return string.format(cname, self.name, health, qty, grams)
+        """Representation of item"""
+        string = "<{} {}:{} [{} {}]>"
+        cname = self.__class__.__name__
+        qty = self.quantity
+        if abs(qty) > 1:
+            qty = int(qty)
+        grams = "grams" if self.quantity > 1 else "gram"
+        health = self.health
+        if abs(health) > 1:
+            health = int(health)
+        return string.format(cname, self.name, health, qty, grams)
 
     def __add__(self, other):
-      item = self
-      if isinstance(other, Item):
-          properties = set(p for p in self)
-          properties.update(set(p for p in other))
-          new_props = {}
-          for prop_name in properties:
-              count = 0
-              if prop_name in self:
-                  count += 1
-              if prop_name in other:
-                  count += 1
-              val = self.get(prop_name, 0) + other.get(prop_name, 0)
-              val = val / 2.0
-              new_props[prop_name] = val
-          if new_props:
-              new_name = "_".join((self.name, other.name))
-              new_qty = sum([self.quantity, other.quantity])
-              item = Item(new_name, new_qty, new_props)
-      return item
+        item = self
+        if isinstance(other, Item):
+            properties = set(p for p in self)
+            properties.update(set(p for p in other))
+            new_props = {}
+            for prop_name in properties:
+                count = 0
+                if prop_name in self:
+                    count += 1
+                if prop_name in other:
+                    count += 1
+                val = self.get(prop_name, 0) + other.get(prop_name, 0)
+                val = val / 2.0
+                new_props[prop_name] = val
+            if new_props:
+                new_name = "_".join((self.name, other.name))
+                new_qty = sum([self.quantity, other.quantity])
+                item = Item(new_name, new_qty, new_props)
+        return item
 
 if __name__ == "__main__":
     filepath = "item_data.yaml"
