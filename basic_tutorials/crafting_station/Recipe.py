@@ -1,6 +1,8 @@
 from file_manipulation import yaml_load
 
+
 class Recipe(object):
+
     """Base recipe object"""
 
     actions = dict((name, value)
@@ -112,7 +114,3 @@ if __name__ == "__main__":
         if item:
             items[item.name] = item
             recipes[recipe.name] = recipe
-
-
-
-
