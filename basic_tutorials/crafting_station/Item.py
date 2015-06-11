@@ -1,11 +1,13 @@
 from file_manipulation import yaml_load
 
+
 class Item(object):
+
     """Basic item"""
 
     property_fields = dict((name, value)
-                            for name, value
-                            in yaml_load('property_data.yaml').iteritems())
+                           for name, value
+                           in yaml_load('property_data.yaml').iteritems())
 
     @property
     def health(self):
@@ -20,7 +22,7 @@ class Item(object):
             else:
                 prop_delta = end - start
                 if start < 0:
-                  prop_delta = prop_delta / 2.0
+                    prop_delta = prop_delta / 2.0
                 shifted_value = float(prop_value) + start
                 multiplier = shifted_value / prop_delta
                 multiplied_value = float(prop_value) * multiplier
