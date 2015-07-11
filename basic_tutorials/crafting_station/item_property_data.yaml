@@ -1,0 +1,8 @@
+# combat
+damage: [3, 12]
+
+# stackables
+quantity: [0, 100]
+
+# standard
+weight: [0, 10000]
