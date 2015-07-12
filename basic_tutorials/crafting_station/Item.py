@@ -263,7 +263,9 @@ class Item(object):
         Example:  <Item Longclaw [1450 grams]>
         """
         weight = self.get("weight", 0)
-        return "<Item {} [{} grams]>".format(self.name, weight)
+        cname = self.__class__.__name__
+        plural = "s" if weight != 1 else ""
+        return "<{} {} [{} gram{}]>".format(cname, self.name, weight, plural)
 
 if __name__ == "__main__":
     import doctest

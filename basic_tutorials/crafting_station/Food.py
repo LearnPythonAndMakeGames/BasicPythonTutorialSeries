@@ -11,7 +11,8 @@ class Food(Item):
     >>> for food_name, food_data in yaml_load(filepath).iteritems():
     ...    food = Food(food_name, weight=1, quantity=1, **food_data)
     ...    foods[food_name] = food
-    >>> import pdb; pdb.set_trace()
+    >>> print foods.get('baking soda')
+    <Food baking soda [1 gram]>
     """
 
     field_filepath = "food_property_data.yaml"
