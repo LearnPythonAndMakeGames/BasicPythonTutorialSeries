@@ -19,18 +19,20 @@ class Item(object):
     ... ]
     >>> items = dict((item_name, Item(name=item_name, **item_values))
     ...               for item_name, item_values in item_data)
-    >>> item = items['iron hilt'] + items['Valyrian steel'] + 5*items['leather strips']
+    >>> item = items['iron hilt'] + items['Valyrian steel']
+    >>> many_strips = 5 * items['leather strips']
+    >>> item = item + many_strips
     >>> item.name = "Longclaw"
     >>> print item
-    <Item Longclaw [1450 grams]>
-    >>> print item.value
-    0.5
+    <Item Longclaw [2050 grams]>
+    >>> print item.value  # doctest:+ELLIPSIS
+    1...
     >>> print items['iron hilt'].value
-    0.497222222222
+    0.502777777778
     >>> print items['Valyrian steel'].value
     0.504444444444
     >>> print items['leather strips'].value
-    1.7
+    0.5
     """
     field_filepath = "item_property_data.yaml"
     fields = dict((name, value)
@@ -64,28 +66,39 @@ class Item(object):
     def __mul__(self, other):
         """Increases quantity
 
-        >>> item = Item("mul test")
+        >>> item = Item("mul test", weight=1, quantity=1)
+        >>> item5 = item * 5
         >>> print item.quantity
-        None
-        >>> item * 5
-        >>> print item.quantity
+        1
+        >>> print item5.quantity
         5
+        >>> print item5
+        <Item mul test [5 grams]>
         """
+        cls = self.__class__
+        props = dict((p, v) for p, v in self.iteritems())
+        item = cls(self.name, **props)
         if isinstance(other, int):
-            self.quantity = other
+            qty = item.get("quantity", 1)
+            wt = item.get("weight", 0)
+            original_weight = wt / qty if qty != 0 else wt
+            item.quantity = other * qty
+            item.weight = original_weight * item.quantity
+        return item
 
     def __rmul__(self, other):
         """Increases quantity
 
-        >>> item = Item("rmul test")
+        >>> item = Item("rmul test", weight=1, quantity=1)
+        >>> item5 = 5 * item
         >>> print item.quantity
-        None
-        >>> 5 * item
-        >>> print item.quantity
+        1
+        >>> print item5.quantity
         5
+        >>> print item5
+        <Item rmul test [5 grams]>
         """
-        if isinstance(other, int):
-            self.quantity = other
+        return self.__mul__(other)
 
     def __getattr__(self, key):
         """Returns properties dictionary values as if they
