@@ -20,7 +20,3 @@ class Food(Item):
 if __name__ == "__main__":
     import doctest
     doctest.testmod()
-
-    # i = Item("test")
-    # i.weight = 10
-    # print i.weight
