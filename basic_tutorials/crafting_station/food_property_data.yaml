@@ -1,0 +1,14 @@
+# tastes
+saltiness: [0, 40]
+sweetness: [0, 60]
+bitterness: [0, 50]
+sourness: [0, 40]
+
+# sensations
+pungency: [0, 30]  # spicy-ness
+temperature:  [0, 60]  # physical temperature in C [room temp = 20]
+
+# textures
+hardness: [-100, 20]  # is the food +harder or -softer
+dryness: [-100, 20]  # is the food +dryer or -wetter
+smoothness: [-100, 20]  # is the food +smoother or -rougher
