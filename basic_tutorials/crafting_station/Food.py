@@ -16,6 +16,7 @@ class Food(Item):
     """
 
     field_filepath = "food_property_data.yaml"
+    quantity = 1
 
 if __name__ == "__main__":
     import doctest

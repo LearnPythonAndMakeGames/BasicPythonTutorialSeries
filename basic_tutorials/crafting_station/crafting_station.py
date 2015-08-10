@@ -36,7 +36,7 @@ Testing:
 import sys
 import random
 
-from Item import Item
+from Food import Food as Item
 from Rat import Rat
 from Recipe import Recipe
 
@@ -92,6 +92,7 @@ def update_food_receptical(foods={}, percent_remove=50, number=4):
 
 
 def update_rat_health(rats=[]):
+    '''Updates the rat health'''
     for rat in rats:
         if not rat.was_fed():
             rat.starve()
